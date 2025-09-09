@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About - Appar Sanmarga Uzhavarapani அறக்கட்டளை</title>
+  <!-- <link rel="stylesheet" href="style.css" /> -->
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Appar Sanmarga Uzhavarapani அறக்கட்டளை</h1>
+      <nav>
+        
+          <a href="index.html">Home</a>
+          <a href="about.html" class="active">About</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+      
+      </nav>
+    </div>
+  </header>
+
+  <section class="content">
+    <div class="container">
+     <center><h2>APPAR UZHAVARA ARAKATTALAI</h2></center> 
+<Br><Br><Br>
+      <p>
+        காலமெல்லாம் அடியார்கள் தோன்றிக்கொண்டேதான் இருக்கிறார்கள். அவர்கள், இறைவனின் துணைகொண்டு அவனுக்கே பணிசெய்து அருள் பெறுகிறார்கள்.
+      </p><br>
+      <p>எதிர்வரும் இடர்களைத் தகர்த்து அற்புதம் நிகழ்த்துகிறார்கள்.</p>
+      <p><br>அப்படி, அற்புதங்கள் நிகழ்த்தி, ஆலயங்களைத் திருத்தி, உழவாரப் பணிசெய்து, சிவனாரின் புகழை உலகெங்கும் பரப்பி சிவத்தொண்டாற்றியவர், அப்பர்பிரான்.
+        திருவாமூரில் புகழனார்-மாதினியார் தம்பதியருக்கு மகனாய்ப் பிறந்தவர்.
+      </p><br>
+      <p>
+        இயர் பெயர், மருள்நீக்கியார். இந்த மருள்நீக்கியார், தன் வாழ்வில் தருமசேனர், நாவுக்கரசர், அப்பர், உழவாரத் தொண்டர், தாண்டக வேந்தர் எனப் பெயர்கள் பெற்றவர்.
+      </p>
+    </div>
+
+    <div class="scroll">
+      <p>
+        
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Appar Sanmarga Uzhavarapani அறக்கட்டளை</p>
+    </div>
+  </footer>
+
+  <!-- Floating Donate Button -->
+  <!-- <a href="contact.html#donation" class="donate-btn">Donate</a> -->
+
+  <style>
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  /* Header */
+  header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  nav a.active,
+  nav a:hover {
+    text-decoration: underline;
+    color: #ffd700;
+  }
+  
+
+
+
+
+  
+
+
+  /* Main Content */
+  .content, .intro {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px 20px;
+    margin: 40px auto;
+    border-radius: 10px;
+    max-width: 1000px;
+  }
+  
+  .intro {
+    text-align: center;
+  }
+  
+  /* Gallery */
+  .gallery-wrapper {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .gallery-grid {
+    display: flex;
+    gap: 20px;
+    animation: scrollGallery 15s linear infinite;
+  }
+  
+  .gallery-grid img {
+    width: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  @keyframes scrollGallery {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  
+  /* Contact */
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .contact-info > div {
+    flex: 1 1 45%;
+    min-width: 250px;
+  }
+  
+  .contact-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ffd700;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Floating Donate Button */
+  .donate-btn {
+    bottom: 80px;
+    right: 20px;
+    background: #ffd700;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
+    transition: all 0.3s ease;
+  }
+  
+  .donate-btn:hover {
+    background: #ffae00;
+    transform: scale(1.1);
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 18px;
+    }
+  
+    nav a {
+      margin: 0 8px;
+      font-size: 14px;
+    }
+  
+    .content, .intro {
+      padding: 20px;
+    }
+  
+    .gallery-grid img {
+      width: 180px;
+    }
+  }
+  
+  </style>
+</body>
+</html>
